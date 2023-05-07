@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Doctor extends Model
 {
     
-    
     protected $table='artsen';
     
     //specify a relationship between the doctor and Student models
