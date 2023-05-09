@@ -25,7 +25,7 @@
                     {{ $student->group->naam }}
                 </x-tables.table-cell>
                 <x-tables.table-cell>
-                    <a href="{{ route('students.show', $student) }}">Edit</a>
+                    <a href="{{ route('students.show', $student) }}">BEKIJK</a>
                 </x-tables.table-cell>
             </tr>
         @empty
