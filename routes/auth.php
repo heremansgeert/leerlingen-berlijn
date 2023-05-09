@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
 
-if (Carbon::now() > Carbon::parse('2023-05-09 10:30:00')) {
+if (Carbon::now() > Carbon::parse('2023-05-09 9:30:00')) {
     Route::get('/register', function () {
         abort(404);
     });
