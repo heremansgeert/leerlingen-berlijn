@@ -1,4 +1,4 @@
-<?php
+u<?php
 
 namespace App\Models;
 
@@ -10,7 +10,7 @@ class Group extends Model
     use HasFactory;
 
     protected $table='klassen';
-    
+
     //specify a relationship between the Group and Student models
     public function students()
     {
