@@ -17,13 +17,14 @@ use App\Http\Controllers\ProfileController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 
 
 Route::middleware('auth')->group(function () {
     Route::get('/students',Index::class)->name('students.index');
+    Route::get('/dashboard',Index::class)->name('dashboard');
     Route::get('/students/show/{student}',Show::class)->name('students.show');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
