@@ -60,11 +60,13 @@
 
                 </div>
                 <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium text-gray-900">Medicijnen (tolerantie)
+                    <dt class="text-sm font-medium text-gray-900">Medicijnen (tolerantie)<Br/>
+                        legende
                     <span class="block p-2 w-1/2 mb-2
                                 text-green-600 bg-green-200">leerling mag medicijn nemen</span>
                     <span class="block p-2 w-1/2 mb-2
                                 bg-red-500 text-white">leerling mag medicijn niet nemen</span>
+                        <br/>
                     </dt>
                     <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                         <span
